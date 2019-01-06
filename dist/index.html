@@ -9,16 +9,19 @@
 	<title>PoGo</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700|Roboto" rel="stylesheet">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-	 crossorigin="anonymous">
-	<link type="text/css" rel="stylesheet" href="./css/normalize.css">
-	<link type="text/css" rel="stylesheet" href="./css/styles.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
 	 crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<link type="text/css" rel="stylesheet" href="./css/normalize.css">
+	<link type="text/css" rel="stylesheet" href="./css/styles.css">
+
+
 
 </head>
 
-<body>
+<body class="load">
 	<header>
 		<div class="header-wrap">
 			<div class="logo">
@@ -75,19 +78,20 @@
 
 		<section class="section-about-us">
 			<div class="container">
-				<p class="title">What we do</p>
-				<p class="subtitle">STORY ABOUT US</p>
+				<p class="title" data-aos="flip-left" data-aos-duration="700">What we do</p>
+				<p class="subtitle" data-aos="flip-left" data-aos-duration="700">STORY ABOUT US</p>
 				<span class="line"></span>
-				<p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus expedita saepe voluptate
+				<p class="description" data-aos="flip-left" data-aos-duration="700">Lorem ipsum dolor sit amet consectetur
+					adipisicing elit. Temporibus expedita saepe voluptate
 					nulla explicabo ducimus? Exercitationem, odio sit. Vel deleniti temporibus numquam. </p>
 				<div class="row mockups">
-					<div class="col-sm-12 col-lg-4 mockup">
+					<div class="col-sm-12 col-lg-4 mockup" data-aos="zoom-in-up" data-aos-duration="1000">
 						<img src="./assets/img/mockup-1.jpg" alt="">
 					</div>
-					<div class="col-sm-12 col-lg-4 mockup">
+					<div class="col-sm-12 col-lg-4 mockup" data-aos="zoom-in-up" data-aos-duration="1000">
 						<img src="./assets/img/mockup-2.jpg" alt="">
 					</div>
-					<div class="col-sm-12 col-lg-4 mockup">
+					<div class="col-sm-12 col-lg-4 mockup" data-aos="zoom-in-up" data-aos-duration="1000">
 						<img src="./assets/img/mockup-3.jpg" alt="">
 					</div>
 				</div>
@@ -97,23 +101,23 @@
 		<section class="section-statistics">
 			<div class="container">
 				<div class="row">
-					<div class="col">
+					<div class="col" data-aos="fade-up" data-aos-duration="1000">
 						<p class="count">42</p>
 						<p class="statistic-title">WEB DESIGN PROJECTS</p>
 					</div>
-					<div class="col">
+					<div class="col" data-aos="fade-up" data-aos-duration="1000">
 						<p class="count">123</p>
 						<p class="statistic-title">HAPPY CLIENT</p>
 					</div>
-					<div class="col">
+					<div class="col" data-aos="fade-up" data-aos-duration="1000">
 						<p class="count">15</p>
 						<p class="statistic-title">AWARD WINNER</p>
 					</div>
-					<div class="col">
+					<div class="col" data-aos="fade-up" data-aos-duration="1000">
 						<p class="count">99</p>
 						<p class="statistic-title">CLIP OF COFFE</p>
 					</div>
-					<div class="col">
+					<div class="col" data-aos="fade-up" data-aos-duration="1000">
 						<p class="count">24</p>
 						<p class="statistic-title">MEMBERS</p>
 					</div>
@@ -123,36 +127,36 @@
 
 		<section class="section-services">
 			<div class="container">
-				<p class="title">We work with</p>
-				<p class="subtitle">AMAZING SERVICES</p>
+				<p class="title" data-aos="fade-left">We work with</p>
+				<p class="subtitle" data-aos="fade-left">AMAZING SERVICES</p>
 				<span class="line"></span>
 				<div class="row">
-					<div class="col-sm-12 col-md-6 col-xl-4 paragraph">
+					<div class="col-sm-12 col-md-6 col-xl-4 paragraph" data-aos="fade-up">
 						<i class="fa fa-clock"></i>
 						<p class="paragraph-title">PHOTOGRAPHY</p>
 						<p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, deserunt.</p>
 					</div>
-					<div class="col-sm-12 col-md-6 col-xl-4 paragraph">
+					<div class="col-sm-12 col-md-6 col-xl-4 paragraph" data-aos="fade-up" data-aos-delay="100">
 						<i class="fa fa-pencil-alt"></i>
 						<p class="paragraph-title">WEB DESIGN</p>
 						<p class="desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
 					</div>
-					<div class="col-sm-12 col-md-6 col-xl-4 paragraph">
+					<div class="col-sm-12 col-md-6 col-xl-4 paragraph" data-aos="fade-up" data-aos-delay="200">
 						<i class="fab fa-optin-monster"></i>
 						<p class="paragraph-title">CREATIVITY</p>
 						<p class="desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, esse?</p>
 					</div>
-					<div class="col-sm-12 col-md-6 col-xl-4 paragraph">
+					<div class="col-sm-12 col-md-6 col-xl-4 paragraph" data-aos="fade-up" data-aos-delay="300">
 						<i class="fa fa-atlas"></i>
 						<p class="paragraph-title">SEO</p>
 						<p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, temporibus?</p>
 					</div>
-					<div class="col-sm-12 col-md-6 col-xl-4 paragraph">
+					<div class="col-sm-12 col-md-6 col-xl-4 paragraph" data-aos="fade-up" data-aos-delay="400">
 						<i class="fas fa-home"></i>
 						<p class="paragraph-title">CSS/HTML</p>
 						<p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, temporibus?</p>
 					</div>
-					<div class="col-sm-12 col-md-6 col-xl-4 paragraph">
+					<div class="col-sm-12 col-md-6 col-xl-4 paragraph" data-aos="fade-up" data-aos-delay="500">
 						<i class="fas fa-microchip"></i>
 						<p class="paragraph-title">DIGITAL</p>
 						<p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, temporibus?</p>
@@ -163,28 +167,29 @@
 
 		<section class="section-design">
 			<div class="container">
-				<p class="title">For all devices</p>
-				<p class="subtitle">UNIQUE DESIGN</p>
+				<p class="title" data-aos="fade-down-right" data-aos-duration="1000">For all devices</p>
+				<p class="subtitle" data-aos="fade-down-right" data-aos-duration="1000">UNIQUE DESIGN</p>
 				<span class="line"></span>
-				<div class="tablet">
+				<div class="tablet" data-aos="fade-up" data-aos-duration="1000">
 					<img src="./assets/img/tablet.png" alt="Tablet image">
 				</div>
 			</div>
-			<div class="phone">
+			<div class="phone" data-aos="fade-up" data-aos-duration="1000">
 				<img src="./assets/img/phone.png" alt="Phone image">
 			</div>
 		</section>
 		<section class="section-our-job">
 			<div class="container">
-				<p class="title">Service</p>
-				<p class="subtitle">WHAT WE DO</p>
+				<p class="title" data-aos="fade-up" data-aos-duration="1000">Service</p>
+				<p class="subtitle" data-aos="fade-up" data-aos-duration="1000">WHAT WE DO</p>
 				<span class="line"></span>
-				<p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ratione obcaecati,
+				<p class="description" data-aos="fade-up" data-aos-duration="1000">Lorem ipsum dolor sit amet consectetur
+					adipisicing elit. Excepturi ratione obcaecati,
 					corporis odio similique, maxime aliquam ipsa corrupti iusto perferendis dolorum saepe autem nam, magni sed
 					repellendus deleniti facilis fuga!</p>
 				<div class="row">
-					<div class="col-12 col-sm-12 col-md-6 image"></div>
-					<div class="col-12 col-sm-12 col-md-6 collapse-container">
+					<div class="col-12 col-sm-12 col-md-6 image" data-aos="fade-up-right" data-aos-duration="1000"></div>
+					<div class="col-12 col-sm-12 col-md-6 collapse-container" data-aos="fade-up-left" data-aos-duration="1000">
 						<div class="accordion" id="accordionExample">
 							<div class="card">
 								<div class="card-header" id="headingOne">
@@ -254,7 +259,7 @@
 		</section>
 
 		<section class="section-recomendation">
-			<div class="container">
+			<div class="container" data-aos="zoom-out-up" data-aos-duration="1000">
 				<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 					<div class="carousel-inner">
 						<div class="carousel-item active">
@@ -269,7 +274,7 @@
 							</div>
 
 						</div>
-						<div class="carousel-item">
+						<div class="carousel-item" aos-off>
 							<i class="fas fa-comments"></i>
 							<div class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores expedita nam
 								accusamus, distinctio quisquam rem laudantium fugit ipsum velit cum quos eos minima maxime impedit! Natus
@@ -304,14 +309,15 @@
 
 		<section class="section-our-team">
 			<div class="container">
-				<p class="title">Who we are</p>
-				<p class="subtitle">MEET OUR TEAM</p>
+				<p class="title" data-aos="fade-up" data-aos-duration="1000">Who we are</p>
+				<p class="subtitle" data-aos="fade-up" data-aos-duration="1000">MEET OUR TEAM</p>
 				<span class="line"></span>
-				<p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore illo odit asperiores animi
+				<p class="description" data-aos="fade-up" data-aos-duration="1000">Lorem ipsum dolor, sit amet consectetur
+					adipisicing elit. Tempore illo odit asperiores animi
 					molestiae quam, velit ipsam debitis repellendus totam. Excepturi dolore iure ab eaque iste incidunt natus
 					laudantium consequuntur!</p>
 				<div class="row">
-					<div class="col-12 col-sm-12 col-md-4">
+					<div class="col-12 col-sm-12 col-md-4" data-aos="flip-left" data-aos-duration="1000">
 						<div class="person">
 							<div class="bg-green"></div>
 							<img src="./assets/img/christopher.jpg" alt="Christopher photo">
@@ -327,7 +333,7 @@
 						<p class="name">CHRISTOPHER CAMPBELL</p>
 						<p class="proffession">CEO</p>
 					</div>
-					<div class="col-12 col-sm-12 col-md-4">
+					<div class="col-12 col-sm-12 col-md-4" data-aos="flip-left" data-aos-duration="1000">
 						<div class="person">
 							<div class="bg-green"></div>
 							<img src="./assets/img/christine.jpg" alt="Christine photo">
@@ -344,7 +350,7 @@
 						<p class="name">CHRISTINE GUERRA</p>
 						<p class="proffession">Branding/UX Designer</p>
 					</div>
-					<div class="col-12 col-sm-12 col-md-4">
+					<div class="col-12 col-sm-12 col-md-4" data-aos="flip-left" data-aos-duration="1000">
 						<div class="person">
 							<div class="bg-green"></div>
 							<img src="./assets/img/mathew.jpg" alt="Mathew photo">
@@ -365,7 +371,292 @@
 			</div>
 		</section>
 
+		<section class="section-our-work">
+			<div class="row">
+				<div class="col-md-3 col-sm-12 col-12">
+					<div class="col-sm-12 col-12 photo" data-aos="fade-right" data-aos-duration="1000">
+						<img src="./assets/img/photo-1.jpg" alt="Our work photo 1">
+						<div class="photo-wrap">
+							<div class="photo-hover">
+								<i class="far fa-image"></i>
+								<p class="title">AWESOME DESIGNED</p>
+								<p class="description">Lorem ipsum dolor.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-12 photo" data-aos="fade-right" data-aos-duration="1000">
+						<img src="./assets/img/photo-3.jpg" alt="Our work photo 3">
+						<div class="photo-wrap">
+							<div class="photo-hover">
+								<i class="far fa-image"></i>
+								<p class="title">AWESOME DESIGNED</p>
+								<p class="description">Lorem ipsum dolor.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-12 col-12">
+					<div class="col-sm-12 col-12 photo" data-aos="fade-down" data-aos-duration="1000">
+						<img src="./assets/img/photo-2.jpg" alt="Our work photo 2">
+						<div class="photo-wrap">
+							<div class="photo-hover">
+								<i class="far fa-image"></i>
+								<p class="title">AWESOME DESIGNED</p>
+								<p class="description">Lorem ipsum dolor.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-12 photo" data-aos="fade-up" data-aos-duration="1000">
+						<img src="./assets/img/photo-4.jpg" alt="Our work photo 4">
+						<div class="photo-wrap">
+							<div class="photo-hover">
+								<i class="far fa-image"></i>
+								<p class="title">AWESOME DESIGNED</p>
+								<p class="description">Lorem ipsum dolor.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-12 col-12">
+					<div class="col-sm-12 col-12 photo" data-aos="fade-up" data-aos-duration="1000">
+						<img src="./assets/img/photo-5.jpg" alt="Our work photo 5">
+						<div class="photo-wrap">
+							<div class="photo-hover">
+								<i class="far fa-image"></i>
+								<p class="title">AWESOME DESIGNED</p>
+								<p class="description">Lorem ipsum dolor.</p>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-12 col-12">
+					<div class="col-sm-12 col-12 photo" data-aos="fade-left" data-aos-duration="1000">
+						<img src="./assets/img/photo-6.jpg" alt="Our work photo 6">
+						<div class="photo-wrap">
+							<div class="photo-hover">
+								<i class="far fa-image"></i>
+								<p class="title">AWESOME DESIGNED</p>
+								<p class="description">Lorem ipsum dolor.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-12 photo" data-aos="fade-left" data-aos-duration="1000">
+						<img src="./assets/img/photo-7.jpg" alt="Our work photo 7">
+						<div class="photo-wrap">
+							<div class="photo-hover">
+								<i class="far fa-image"></i>
+								<p class="title">AWESOME DESIGNED</p>
+								<p class="description">Lorem ipsum dolor.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-clients">
+			<div class="container">
+				<p class="title" data-aos="fade-up" data-aos-duration="1000">Happy Clients</p>
+				<p class="subtitle" data-aos="fade-up" data-aos-duration="1000">WHAT PEOPLE SAY</p>
+				<span class="line"></span>
+				<div class="row">
+					<div class="col-12 col-sm-12 col-md-6 opinion" data-aos="flip-up" data-aos-duration="1000">
+						<div class="photo"><img src="./assets/img/matthew.jpg" alt=""></div>
+						<div class="opinion-content">
+							<p class="name">MATTHEW DIX</p>
+							<p class="proffesion">Graphic Design</p>
+							<span class="line"></span>
+							<p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi blanditiis omnis est
+								impedit minus ullam? Dolor itaque odio ad nihil.</p>
+						</div>
+
+					</div>
+					<div class="col-12 col-sm-12 col-md-6 opinion" data-aos="flip-up" data-aos-duration="1000">
+						<div class="photo"><img src="./assets/img/nick.jpg" alt=""></div>
+						<div class="opinion-content">
+							<p class="name">NICK KARVOUNIS</p>
+							<p class="proffesion">Graphic Design</p>
+							<span class="line"></span>
+							<p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi blanditiis omnis est
+								impedit minus ullam? Dolor itaque odio ad nihil.</p>
+						</div>
+
+					</div>
+					<div class="col-12 col-sm-12 col-md-6 opinion" data-aos="flip-up" data-aos-duration="1000">
+						<div class="photo"><img src="./assets/img/emily.jpg" alt=""></div>
+						<div class="opinion-content">
+							<p class="name">EMILY ROSS</p>
+							<p class="proffesion">Graphic Design</p>
+							<span class="line"></span>
+							<p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi blanditiis omnis est
+								impedit minus ullam? Dolor itaque odio ad nihil.</p>
+						</div>
+
+					</div>
+					<div class="col-12 col-sm-12 col-md-6 opinion" data-aos="flip-up" data-aos-duration="1000">
+						<div class="photo"><img src="./assets/img/mike.jpg" alt=""></div>
+						<div class="opinion-content">
+							<p class="name">MIKE PETRUCCI</p>
+							<p class="proffesion">Graphic Design</p>
+							<span class="line"></span>
+							<p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi blanditiis omnis est
+								impedit minus ullam? Dolor itaque odio ad nihil.</p>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-blog">
+			<div class="container">
+				<p class="title" data-aos="fade-up" data-aos-duration="1000">Our Stories</p>
+				<p class="subtitle" data-aos="fade-up" data-aos-duration="1000">LATEST BLOG</p>
+				<span class="line"></span>
+				<div class="row">
+					<div class="col-12 col-sm-12 col-md-4 post" data-aos="zoom-in-up" data-aos-duration="1000">
+						<a href="#">
+							<div class="banner">
+								<div class="photo"><img src="./assets/img/blog-1.jpg" alt="Photo to post 1"></div>
+								<p class="date-publication">
+									14 <br>
+									<span>Jan</span>
+								</p>
+								<div class="post-hover">
+									<i class="fas fa-link"></i>
+								</div>
+							</div>
+							<div class="content">
+								<p class="title">Repudiandae eaque.</p>
+								<p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, eum molestiae iusto
+									impedit debitis quis.</p>
+								<p class="views-comments">
+									<i class="fas fa-comments"></i> 123
+									<i class="far fa-eye"></i> 1489
+								</p>
+							</div>
+						</a>
+
+					</div>
+					<div class="col-12 col-sm-12 col-md-4 post" data-aos="zoom-in-up" data-aos-duration="1000">
+						<a href="#">
+							<div class="banner">
+								<div class="photo"><img src="./assets/img/blog-2.jpg" alt="Photo to post 2"></div>
+								<p class="date-publication">
+									18 <br>
+									<span>Jan</span>
+								</p>
+
+								<div class="post-hover">
+									<i class="fas fa-link"></i>
+								</div>
+							</div>
+							<div class="content">
+								<p class="title">Optio magni voluptatibus.</p>
+								<p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quidem architecto soluta
+									eius dolor aliquid.</p>
+								<p class="views-comments">
+									<i class="fas fa-comments"></i> 140
+									<i class="far fa-eye"></i> 1134
+								</p>
+							</div>
+						</a>
+
+					</div>
+					<div class="col-12 col-sm-12 col-md-4 post" data-aos="zoom-in-up" data-aos-duration="1000">
+						<a href="#">
+							<div class="banner">
+								<div class="photo"><img src="./assets/img/blog-3.jpg" alt="Photo to post 3"></div>
+								<p class="date-publication">
+									27 <br>
+									<span>Jan</span>
+								</p>
+
+								<div class="post-hover">
+									<i class="fas fa-link"></i>
+								</div>
+							</div>
+							<div class="content">
+								<p class="title">Ea officia consectetur in.</p>
+								<p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio doloremque at veritatis
+									aspernatur fugiat consectetur!</p>
+								<p class="views-comments">
+									<i class="fas fa-comments"></i> 132
+									<i class="far fa-eye"></i> 1534
+								</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-12 col-12" data-aos="zoom-in-right" data-aos-duration="1000">
+						<p class="logo">PoGo</p>
+						<p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ad eius maiores a sunt odio
+							explicabo libero eum deleniti maxime natus quidem corrupti officia vero magni dignissimos, aperiam blanditiis?
+							Harum molestias doloremque corporis repudiandae, fugiat quia a delectus error qui distinctio, necessitatibus
+							quasi tempore atque in blanditiis saepe eaque at!</p>
+						<div class="social">
+							Follow us:
+							<a href="#">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+							<a href="#">
+								<i class="fab fa-pinterest"></i>
+							</a>
+							<a href="#">
+								<i class="fab fa-twitter"></i>
+							</a>
+							<a href="#">
+								<i class="fab fa-instagram"></i>
+							</a>
+							<a href="#">
+								<i class="fab fa-google"></i>
+							</a>
+							<a href="#">
+								<i class="fab fa-youtube"></i>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-12 col-12" data-aos="zoom-in-left" data-aos-duration="1000">
+						<p class="instagram">
+							INSTAGRAM
+						</p>
+						<div class="row">
+							<div class="col-sm-4 col-4 photo"><img src="./assets/img/insta-small-1.jpg" alt="Insta photo 1"></div>
+							<div class="col-sm-4 col-4 photo"><img src="./assets/img/insta-small-2.jpg" alt="Insta photo 2"></div>
+							<div class="col-sm-4 col-4 photo"><img src="./assets/img/insta-small-3.jpg" alt="Insta photo 3"></div>
+							<div class="col-sm-4 col-4 photo"><img src="./assets/img/insta-small-4.jpg" alt="Insta photo 4"></div>
+							<div class="col-sm-4 col-4 photo"><img src="./assets/img/insta-small-5.jpg" alt="Insta photo 5"></div>
+							<div class="col-sm-4 col-4 photo"><img src="./assets/img/insta-small-6.jpg" alt="Insta photo 6"></div>
+						</div>
+						<a href="#" class="view-more" photo>
+							View more...
+						</a>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<section class="section-copyright">
+			<div class="container copyright">
+				&copy; 2019 PoGo by Dawid Piech
+			</div>
+		</section>
 	</main>
+
+	<div class="preloader-body">
+		<div class="preloader">
+			<div class="circle"></div>
+			<div class="circle"></div>
+		</div>
+	</div>
 
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -374,6 +665,7 @@
 	 crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
 	 crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 	<script type="text/javascript" src="./js/main.min.js"></script>
 </body>
 
