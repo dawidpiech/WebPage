@@ -283,23 +283,31 @@ main {
       font-size: 50px;
 
       @media screen and (max-width: $extra-small) and (orientation: portrait) {
-        font-size: 17px;
-      }
-
-      @media screen and (max-width: $large) and (orientation: landscape) {
         font-size: 15px;
       }
 
       @media screen and (min-width: $extra-small + 1) and (max-width: $small) and (orientation: portrait) {
-        font-size: 20px;
+        font-size: 18px;
       }
 
-      @media screen and (min-width: $small) and (max-width: $medium) and (orientation: portrait) {
+      @media screen and (min-width: $small + 1) and (max-width: $medium) and (orientation: portrait) {
+        font-size: 30px;
+      }
+
+      @media screen and (min-width: $medium + 1) and (max-width: $large) and (orientation: portrait) {
         font-size: 40px;
       }
 
-      @media screen and (min-width: $medium + 1) and (orientation: portrait) {
+      @media screen and (min-width: $extra-large) and (orientation: portrait) {
         font-size: 50px;
+      }
+
+      @media screen and (max-width: $medium) and (orientation: landscape) {
+        font-size: 15px;
+      }
+
+      @media screen and (min-width: $medium + 1) and (max-width: $extra-large) and (orientation: landscape) {
+        font-size: 30px;
       }
 
       h3 {
@@ -490,23 +498,45 @@ main {
     .container {
       position: relative;
       overflow: hidden;
-      height: 800px;
+      height: 1000px;
 
       @media screen and (max-width: $small) {
         height: 450px;
       }
 
-      .tablet {
-        width: 500px;
-        position: absolute;
-        top: 250px;
-        left: 50%;
-        margin-left: -250px;
+      @media screen and (min-width: $small + 1) and (max-width: $medium){
+        height: 700px;
+      }
 
-        @media screen and (max-width: $small) {
+      .tablet {
+        width: 750px;
+        position: absolute;
+        top: 125px;
+        left: 50%;
+        margin-left: -375px;
+
+        @media screen and (max-width: $extra-small) {
           top: 150px;
           width: 250px;
           margin-left: -125px;
+        }
+
+        @media screen and (min-width: $extra-small + 1) and (max-width: $small) {
+          width: 300px;
+          top: 150px;
+          margin-left: -150px;
+        }
+  
+        @media screen and (min-width: $small + 1) and (max-width: $medium){
+          width: 400px;
+          top: 175px;
+          margin-left: -200px;
+        }
+  
+        @media screen and (min-width: $medium + 1) and (max-width: $large){
+          width: 650px;
+          top: 150px;
+          margin-left: -325px;
         }
 
         img {
@@ -519,7 +549,7 @@ main {
     .phone {
       width: 250px;
       position: absolute;
-      top: 500px;
+      top: 575px;
       left: 60%;
       z-index: 1;
 
@@ -528,9 +558,24 @@ main {
         height: 100%;
       }
 
-      @media screen and (max-width: $small) {
-        width: 125px;
+      @media screen and (max-width: $extra-small) {
+        width: 100px;
         top: 325px;
+      }
+
+      @media screen and (min-width: $extra-small + 1) and (max-width: $small) {
+        width: 125px;
+        top: 275px;
+      }
+
+      @media screen and (min-width: $small + 1) and (max-width: $medium){
+        width: 150px;
+        top: 475px;
+      }
+
+      @media screen and (min-width: $medium + 1) and (max-width: $extra-large){
+        width: 225px;
+        top: 625px;
       }
     }
   }
